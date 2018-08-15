@@ -26,7 +26,7 @@ export class AppComponent implements OnInit {
     this.errorPromise = new Promise((_, reject) => {
       setTimeout(() => {
         reject('promise has failed :(');
-      }, 5000);
+      }, 3000);
     });
     this.successfulPromise.then((result) => {
       // This should never hit
