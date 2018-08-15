@@ -31,7 +31,7 @@ export class AppComponent implements OnInit {
     this.successfulPromise.then((result) => {
       // This should never hit
       this.title = result;
-    }, (error) => {
+    }).catch((error) => {
       console.error(error);
     });
   }
