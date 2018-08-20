@@ -1,27 +1,19 @@
 # Promises
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.1.
+## Lesson Routes
 
-## Development server
+`/promises` - Example of how you can use a single promise to resolve a value and handle errors.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+`/promise-callbacks` - Example of how you can use a multiple promises to resolve multiple values and handle errors.
 
-## Code scaffolding
+`/async-await` - Example of how you can use the Async/Await syntax to resolve a single promise.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+`/async-await-callbacks` - Example of how you can use the Async/Await syntax to resolve multiple promises.
 
-## Build
+## Exercise
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+API: https://github.com/shevabam/breaking-bad-quotes
 
-## Running unit tests
+Using the breaking bad API defined in the component, create a promise that queries the API (using a GET request) and change the Author and Quote on the page.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Use a promise and the async/await syntax to accomplish this.

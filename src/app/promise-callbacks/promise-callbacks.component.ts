@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-promises-callbacks',
-  templateUrl: './promises-callbacks.component.html'
+  selector: 'app-promise-callbacks',
+  templateUrl: './promise-callbacks.component.html'
 })
-export class PromisesCallbacksComponent implements OnInit {
-  title = 'Promises Callbacks';
+export class PromiseCallbacksComponent implements OnInit {
+  title = 'Promise Callbacks';
 
   ngOnInit(): void {
     this.changeTitle();
